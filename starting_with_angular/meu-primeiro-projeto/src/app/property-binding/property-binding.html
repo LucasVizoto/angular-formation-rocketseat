@@ -1,0 +1,18 @@
+<input id="meu-input"
+(input)="onInputChange($event)"
+[value]="propriedade"
+[type]="inputType"
+[disabled]="inputDisabled"
+/>
+
+<br/>
+
+<button (click)="habilitarInput()">Habilitar</button>
+<button (click)="desabilitarInput()">Desabilitar</button>
+
+<br/>
+
+<button (click)="mudarInputTypeParaPassword()">Mudar para Password</button>
+<button (click)="mudarInputTypeParaText()">Mudar para Text</button>
+
+<br/>
