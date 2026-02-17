@@ -6,6 +6,7 @@ import { PropertyBinding } from "./property-binding/property-binding";
 import { TwoWayDataBinding } from "./two-way-data-binding/two-way-data-binding";
 import { DinamicText } from './component/style-binding/dinamic-text/dinamic-text';
 import { ProgressBar } from './component/style-binding/progress-bar/progress-bar';
+import { SquarePopup } from './component/style-binding/square-popup/square-popup';
 
 @Component({
   selector: 'app-root',
@@ -16,7 +17,8 @@ import { ProgressBar } from './component/style-binding/progress-bar/progress-bar
     PropertyBinding, 
     TwoWayDataBinding,
     DinamicText,
-    ProgressBar
+    ProgressBar,
+    SquarePopup,
   ],
   templateUrl: './app.html',
   styleUrl: './app.css'
