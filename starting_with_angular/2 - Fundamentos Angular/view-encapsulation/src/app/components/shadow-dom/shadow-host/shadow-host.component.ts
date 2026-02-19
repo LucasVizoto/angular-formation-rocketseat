@@ -11,8 +11,12 @@ import { ChildComponent } from "../child/child.component";
     <app-child />
   `,
   styles: `
+  :host{
+    --shadow-color: blue;
+  }
+
   p {
-    color: red;
+    color: var(--secondary-color);
   }
   `,
   encapsulation: ViewEncapsulation.ShadowDom  
